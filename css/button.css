@@ -1,0 +1,17 @@
+.button {
+  background: var(--color-black-1);
+  color: var(--color-white-3);
+  text-decoration: none;
+  padding-block: .5rem;
+  padding-inline: 1rem;
+  border-radius: .25rem;
+}
+
+.button i {
+  padding-right: .5rem;
+  font-size: 1.5rem;
+}
+
+.button span {
+  font: var(--font-h3-medium);
+}

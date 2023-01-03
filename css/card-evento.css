@@ -1,0 +1,44 @@
+.card-event {
+  width: 270px;
+  text-decoration: none;
+}
+
+.card-event-container {
+
+}
+
+.card-event-background {
+  border-radius: 20px 20px 0 0;
+  width: 270px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.card-event-background img {
+  position: relative;
+  width: 100%;
+}
+
+.card-event-description {
+  background: var(--color-white-3);
+  border-radius: 0 0 20px 20px;
+  padding-inline-start: .75rem;
+  padding-inline-end: .75rem;
+  padding-block-start: .75rem;
+  padding-block-end: .75rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.card-event-description h3 {
+  font: var(--font-h3-medium);
+  color: var(--color-black-1);
+}
+
+.card-event-description .event-date{
+  color: var(--color-black-1);
+  font: var(--font-regular);
+  display: flex;
+  gap: .5rem;
+}

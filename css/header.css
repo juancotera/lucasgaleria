@@ -1,0 +1,17 @@
+.header {
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+}
+
+.logo {
+  color: var(--color-white-3);
+  font: var(--font-h1-bold);
+  text-align: center;
+  padding-block-end: .75rem;
+}
+
+.lema {
+  color: var(--color-white-3);
+  font: var(--font-regular);
+  text-align: center;
+}
