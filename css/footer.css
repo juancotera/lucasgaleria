@@ -1,0 +1,35 @@
+.footer {
+
+}
+
+.footer-container {
+  padding-block-start: 4rem;
+  padding-block-end: 4rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: var(--color-white-3);
+  font-size: 1.5rem;
+}
+
+.footer-rights {
+  color: var(--color-white-3);
+  font: var(--font-regular);
+  text-align: center;
+}
+
+.footer-rights a {
+  color: var(--color-white-3);
+  font: var(--font-regular);
+}

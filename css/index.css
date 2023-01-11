@@ -2,6 +2,7 @@
 @import './main.css';
 @import './card-evento.css';
 @import './button.css';
+@import './footer.css';
 
 :root {
   --difuminado: linear-gradient(80deg, #b00194 0%, #000693 100%);
